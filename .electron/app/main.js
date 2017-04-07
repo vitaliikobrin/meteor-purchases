@@ -20,7 +20,7 @@ app.on('ready', function() {
   // Create the browser window.
   mainWindow = new BrowserWindow({width: 800, height: 600});
 
-  var url = process.env.ROOT_URL || 'http://localhost:3000/' 
+  var url = process.env.ROOT_URL || 'http://10.0.1.200:3000/'
   // and load the index.html of the app.
   mainWindow.loadUrl(url);
 
