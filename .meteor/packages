@@ -36,3 +36,6 @@ gwendall:auth-client-callbacks
 aldeed:collection2-core
 aldeed:autoform
 meteortoys:allthings
+omega:meteor-desktop-watcher@=0.6.1
+omega:meteor-desktop-bundler@=0.6.1
+omega:meteor-desktop-localstorage@=0.0.11
