@@ -1,7 +1,7 @@
 {
-    "name": "My Meteor App",
+    "name": "Simple Todo App",
     "version": "0.0.1",
-    "projectName": "MyMeteorApp",
+    "projectName": "SimpleTodoApp",
     "devTools": true,
     "devtron": true,
     "desktopHCP": true,
@@ -33,15 +33,18 @@
     },
     "dependencies": {},
     "packageJsonFields": {
-        "description": "My Meteor App",
-        "author": "Me, Myself And I",
+        "description": "Simple Todo App",
+        "author": "",
         "private": true
     },
     "builderOptions": {
         "win": {
-            "title": "My Meteor App",
-            "authors": "Me, Myself And I",
+            "title": "Simple Todo App",
+            "authors": "",
             "target": "squirrel"
+        },
+        "linux": {
+            "icon": ".desktop/assets/meteor.ico"
         },
         "squirrelWindows": {
             "iconUrl": "https://github.com/wojtkowiak/meteor-desktop/blob/beta/scaffold/assets/meteor.ico?raw=true",
@@ -49,7 +52,7 @@
         },
         "icon": ".desktop/assets/meteor.ico",
         "appId": "meteor.app",
-        "productName": "My Meteor App",
+        "productName": "Simple Todo App",
         "compression": "maximum",
         "mac": {
             "icon": ".desktop/assets/meteor.icns"
@@ -66,7 +69,8 @@
                 "width": 480,
                 "height": 300
             }
-        }    },
+        }
+    },
     "packagerOptions": {
         "icon": ".desktop/assets/meteor.ico",
         "_osx": {
