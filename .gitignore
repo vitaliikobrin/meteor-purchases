@@ -3,3 +3,5 @@ node_modules/
 .electron/out
 
 version.desktop
+.desktop-installer
+.meteor/.desktop_node_modules
